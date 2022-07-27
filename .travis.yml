@@ -3,6 +3,7 @@ python:
   - "3.8"      # current default Python on Travis CI
 # command to install dependencies
 install:
+  - pip install importlib-metadata
   - pip install -r requirements.txt
 # command to run tests
 script:
